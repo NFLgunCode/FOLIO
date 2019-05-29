@@ -1,0 +1,294 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-color {
+    background-color: transparent;
+}
+
+li {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+}
+
+
+nav.shrink {
+    /* background-color: rgba(0, 0, 0, 1); */
+    background-color: #9C8774;
+    height: 50px;
+    padding-top: 0px;
+}
+
+nav a {
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+nav li a:hover {
+    background-color: #9C8774;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+nav .shrink li a {
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+#navcollapse {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* home */
+a {
+    color: #9C8774;
+}
+
+#home {
+    background-image: url("../image/background23.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* background-color: #cccccc; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+#home h1 {
+    padding-top: 170px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 60px;
+}
+
+
+/* card */
+
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+span.info {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 16px;
+}
+
+p.title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.title-s {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.info {
+    font-weight: normal;
+}
+
+.prog {
+    background-color: #9C8774;
+}
+
+.tech {
+    color: #9C8774;
+}
+
+
+/* portfolio */
+
+.work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+}
+
+.work-box:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.work-img {
+    display: block;
+    overflow: hidden;
+}
+
+.work-img img {
+    transition: all 1s;
+    /* height: 50VH; */
+}
+
+.work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+
+.work-content .w-more {
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+
+.work-content .w-more .w-ctegory {
+    color: #9C8774;
+}
+
+.work-content .w-like {
+    font-size: 2.5rem;
+    color: #9C8774;
+    float: right;
+}
+
+.work-content .w-like a {
+    color: #9C8774;
+}
+
+.work-content .w-like .num-like {
+    font-size: .7rem;
+}
+
+.w-title {
+    font-size: 1.2rem;
+}
+
+#sendmessage {
+    color: #0078ff;
+    border: 1px solid #0078ff;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#sendmessage.show,
+#errormessage.show,
+.show {
+    display: block;
+}
+
+.validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+/* contact card */
+
+div .social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-icon li {
+    font-weight: normal;
+}
+
+ul .fas {
+    padding-bottom: 20px;
+    color: #9C8774;
+}
+
+ul .fab {
+    color: black;
+    border: 3px solid #9C8774;
+    padding: 8px;
+    border-radius: 80%;
+}
+
+.socials ul .ico {
+    padding: 25px;
+}
+
+.button {
+    color: #fff;
+    background-color: #9C8774;
+    padding: 1%;
+    border-radius: 7%;
+    box-shadow: none;
+}
+
+div .mybtn .shrink {
+    background-color: rgba(0, 0, 0, 1);
+    height: 50px;
+    padding-top: 0px;
+}
+
+div .mybtn .shrink a {
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+/* flagbutton */
+
+
+.btn {
+    background: #A58F81;
+    color: white;
+}
+
+.b1 :hover {
+    background-color: #A58F81;
+    color: white;
+}
+
+
+/* button #topbtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: #0078FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+} */
